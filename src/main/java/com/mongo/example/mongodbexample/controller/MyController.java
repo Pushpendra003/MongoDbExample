@@ -12,6 +12,8 @@ public class MyController {
 
     @Autowired
     private StudentRepository sr;
+
+    
     
     @PostMapping
     public ResponseEntity<?> addStudent(@RequestBody Student student){
