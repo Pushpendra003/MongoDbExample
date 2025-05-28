@@ -13,9 +13,11 @@ public class MyController {
     @Autowired
     private StudentRepository sr;
 
+
     public MyController(StudentRepository sr){
 	    this.sr = sr;
     }
+  
     
     @PostMapping
     public ResponseEntity<?> addStudent(@RequestBody Student student){
