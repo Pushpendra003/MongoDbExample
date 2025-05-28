@@ -13,8 +13,12 @@ public class MyController {
     @Autowired
     private StudentRepository sr;
 
+<<<<<<< HEAD
 
 
+=======
+    
+>>>>>>> d08a597f917b43dd997bae065c9f8da49837b893
     
     @PostMapping
     public ResponseEntity<?> addStudent(@RequestBody Student student){
